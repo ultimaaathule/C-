@@ -1,41 +1,12 @@
-﻿// ЗАДАЧА 6!
-
-Console.WriteLine ("Введите число");
-string a = Console.ReadLine();
-int a1 = Convert.ToInt32(a);
-if(a1==4)
-{
- Console.WriteLine("Да"); 
-}
-string b = Console.ReadLine();
-int b1 = Convert.ToInt32(a);
-if(a1==-3)
-{
- Console.WriteLine("Нет"); 
-}
-string c = Console.ReadLine();
-int c1 = Convert.ToInt32(a);
-if(c1==7)
-{
- Console.WriteLine("Нет"); 
-}
-
+﻿
 
 //задача 8
 
 Console.WriteLine("Введите число");
-string a = Console.ReadLine();
-int a1 = Convert.ToInt32(a);
-if (a1==5);
-{
-Console.WriteLine($"{2} {4}");
-}
-string b = Console.ReadLine();
-int b1 = Convert.ToInt32(b);
-if (b1==8);
-{
-Console.WriteLine($"{2} {4} {6} {8}");
-}
+int n = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <= n; i++);
+if (i % 2== 0)
+Console.WriteLine(i);
 
 
 //задача 4
@@ -56,21 +27,17 @@ Console.WriteLine(max);
 // задача 6
 
 Console.WriteLine ("Введите число");
-string a = Console.ReadLine();
-int a1 = Convert.ToInt32(a);
-if(a1==4)
-{
+int n = Convert.ToInt32(Console.ReadLine());
+if (n % 2 == 0)
  Console.WriteLine("Да"); 
-}
-string b = Console.ReadLine();
-int b1 = Convert.ToInt32(a);
-if(a1==-3)
-{
- Console.WriteLine("Нет"); 
-}
-string c = Console.ReadLine();
-int c1 = Convert.ToInt32(a);
-if(c1==7)
-{
- Console.WriteLine("Нет"); 
-}
+else Console.WriteLine("Нет"); 
+
+
+//Задача 2
+
+Console.WriteLine("ВВедите первое число");
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+if (a > b)
+    Console.WriteLine("Первое число больше");
+else Console.WriteLine("Второе число больше");
